@@ -21,3 +21,39 @@ h1 {
    font-size: 16px;
    color: rgb(123, 124, 129)
 }
+
+.button {
+   background-color: transparent;
+   border: none;
+}
+
+.blog {
+   display: flex;
+   flex-direction: column;
+   border: 3px solid red;
+}
+
+.top-bar {
+   display: flex;
+   flex-direction: column;
+   border: 3px solid blue;
+}
+
+.buttons {
+   display: flex;
+   border: 3px solid green;
+}
+
+.posts {
+   display: flex;
+   border: 3px solid yellow;
+   width: 25%;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   border: 3px solid black;
+}
+
