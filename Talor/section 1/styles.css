@@ -26,22 +26,27 @@ p {
    color: rgb(123, 124, 129)
 }
 
-.card {
-    border: 1px solid red;
+.tagline {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    border: 3px solid green;
 }
 
 .wrapper {
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    border: 2px solid blue;
     
 }
 
-.tagline {
+.card {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    border: 1px solid green;
+    border: 2px solid red;
+}
+
+.container {
+    display: inline-block;
+    border: 2px solid black;
 }
