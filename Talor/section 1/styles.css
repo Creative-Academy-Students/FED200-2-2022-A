@@ -35,18 +35,35 @@ p {
 
 .wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
     border: 2px solid blue;
     
 }
 
+@media (min-width: 50rem) {
+    .wrapper {
+        flex-direction: row;
+    }
+}
+
+
 .card {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: calc(100% / 3);
+    margin: 1rem;
     border: 2px solid red;
 }
 
 .container {
     display: inline-block;
     border: 2px solid black;
+}
+
+.image {
+    width: 100%;
+    max-width: 12rem;
 }
