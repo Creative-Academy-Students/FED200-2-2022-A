@@ -1,1 +1,1 @@
-How do I wrap text in cards?
+How do I wrap text in cards? Make less padding without cards all moving to the left.
