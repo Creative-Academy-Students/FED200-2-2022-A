@@ -22,7 +22,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
 }
 
 .tagline-3 {
@@ -31,14 +30,8 @@ h1 {
     align-items: center;
     margin: 4rem;
     inline-size: 650px;
-    border: 1px solid green;
 }
 
 .container-3 {
   display: inline-block;
-  border: 1px solid blue;
-}
-
-.icon-3 {
-    margin: 2rem;
 }
