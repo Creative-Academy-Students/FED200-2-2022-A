@@ -1,9 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    display: flexbox;
     margin-left: 50px;
     margin-right: 50px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
   }
 
+  .text-box-center {
+    padding-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+    
+    
+  }
+
+  .header-font {
+    font-size: 60px;
+    margin: 0;
   
+  }
+
+  .par-font {
+    max-width: 400px;
+    font-size: 18px;
+    
+
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+
+.container-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 24px;
+  
+  
+}
+
+ 
