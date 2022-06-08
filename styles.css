@@ -1,6 +1,5 @@
-@import "sections/header/styles.css";
-@import "sections/hero/styles.css";
-@import "sections/work/styles.css";
+@import "/Dean/section-1/styles.css";
+@import "/Dean/section-2/styles.css";
 
 * { 
     box-sizing: border-box;
