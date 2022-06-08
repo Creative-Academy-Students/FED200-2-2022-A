@@ -20,7 +20,7 @@ p {
    line-height: 1.7rem;
    opacity: 70%;
    margin: 1.5rem 2rem 3rem 0rem;
-   color: rgb(123, 124, 129)
+   color: rgb(20, 200, 14)
 }
 
 .button-graph {
@@ -47,6 +47,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     inline-size: 450px;
 }
 

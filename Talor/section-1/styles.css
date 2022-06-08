@@ -38,13 +38,13 @@
 
 .wrapper-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     
 }
 
 @media (min-width: 50rem) {
-    .wrapper {
+    .wrapper-2 {
         flex-direction: row;
     }
 }
@@ -56,7 +56,13 @@
     align-items: center;
     justify-content: center;
     padding: 0rem 3rem;
-    width: calc(100% / 3);
+    width: 100%;
+}
+
+@media (min-width: 50rem) {
+    .card-2 {
+        width: calc(100% / 3);
+    }
 }
 
 .container-2 {

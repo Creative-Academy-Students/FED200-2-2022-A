@@ -34,8 +34,15 @@ h1 {
 }
 
 .container-3 {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+}
+
+@media (min-width: 1000px) {
+    .container-3 {
+        max-width: 100%;
+    }
 }
 
 .logo-3 {
