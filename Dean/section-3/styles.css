@@ -1,50 +1,70 @@
-* {
+* { 
   box-sizing: border-box;
 }
 
-body {
-    margin-left: 50px;
-    margin-right: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+.hero-4 {
+ background-color: rgb(246, 245, 241);
+}
+
+h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 64px;
+ font-weight: 600;
+ margin: 0;
+ color: rgb(34, 37, 46)
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(34, 37, 46)
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ color: rgb(123, 124, 129)
+}
+
+.tagline-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.wrapper-4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+
+@media (min-width: 50rem) {
+  .wrapper {
+      flex-direction: row;
   }
-
-  .text-box-center {
-    display: flex;
-    flex-wrap:wrap;
-    flex-flow: column wrap;
-    justify-content:center;
-    align-items:center;
-    
-  }
-
-  .header-font {
-    font-size: 60px;
-    
-  }
-
-  .par-font {
-    width: 600px; 
-    font-size: 18px;
-    
-
-  }
-
-  .container {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
-
-    
-
-  }
+}
 
 
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 3rem;
+  width: calc(100% / 3);
+}
 
- .card {
-   display: flex;
-   flex-wrap: wrap;
-   width: 300px;
-   justify-content: center;
-   
- }
+.container-4 {
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+}
+
+.image-4 {
+  width: 100%;
+  max-width: 18rem;
+}
